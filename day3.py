@@ -1,4 +1,4 @@
-#elseif
+# #elseif
 
 # mark=int(input("Enter your mark:"))
 # if mark < 0 or mark > 100:
@@ -14,15 +14,15 @@
 # else:
 #     print("Fail")
 
-#nested if
-#check whether the num is positve or negative
+# #nested if
+# #check whether the num is positve or negative
 # num=int(input("Enter the Number:"))
 # if num>0:
 #     print("possitve")
 # else:
 #     print("Negative")
 
-#Build a simulated login system that checks three separate layers of validation: a username, a password, and an account status
+# #Build a simulated login system that checks three separate layers of validation: a username, a password, and an account status
 # username = "admin"
 # password = "Secret123"
 # is_active = True
@@ -40,22 +40,34 @@
 #     print("Access Denied: Unknown User")
 
 
-# Scenario:
-# Design the backend logic for an ATM machine processing a withdrawal transaction.
-balance = 500
-daily_limit = 300
-amount = 120
+# # Scenario:
+# # Design the backend logic for an ATM machine processing a withdrawal transaction.
+# balance = 500
+# daily_limit = 300
+# amount = 120
 
-if amount % 10 == 0:
-    if amount <= balance:
-        if amount <= daily_limit:
-            balance -= amount
-            print(f"Withdrawal successful. Remaining balance: ${balance}")
-        else:
-            print("Error: Exceeds daily withdrawal limit")
-    else:
-        print("Error: Insufficient funds")
-else:
-    print("Error: Please request a multiple of $10")
+# if amount % 10 == 0:
+#     if amount <= balance:
+#         if amount <= daily_limit:
+#             balance -= amount
+#             print(f"Withdrawal successful. Remaining balance: ${balance}")
+#         else:
+#             print("Error: Exceeds daily withdrawal limit")
+#     else:
+#         print("Error: Insufficient funds")
+# else:
+#     print("Error: Please request a multiple of $10")
 
+#logical operator with nested if
 
+# num=int(input("Enter the number:"))
+# if num >=10 and num<=50:
+#     print("Num is between 10 and 50")
+# else:
+#     print("Under or greater 10 and 50")
+
+mark=80
+
+student=int(input("Enter the name:"))
+if student >=80:
+    print ("pass in math")
