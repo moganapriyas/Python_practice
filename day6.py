@@ -46,3 +46,34 @@ while guess != magic_word:
     guess = input("Guess the magic word: ")
 
 print("You got it!")
+
+
+#function
+
+def hello(): #create the function name
+    print("Hii python")
+hello() #calling function
+hello()
+hello()
+
+#without function
+result1=4*4
+print(result1)
+result2=5*5
+print(result2)
+result3=6*6
+print(result3)
+
+#with function
+def square(num):
+    return num*num
+print(square(4))
+print(square(5))
+print(square(6))
+
+#return value
+def get_greeting():
+  return "Hello from a function"
+
+message = get_greeting()
+print(message)
