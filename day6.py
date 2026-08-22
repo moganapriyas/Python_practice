@@ -77,3 +77,25 @@ def get_greeting():
 
 message = get_greeting()
 print(message)
+
+#fuction with argument
+def greet(name):
+    print("hello", name)
+greet("priya")
+greet("laya")
+
+#add function
+def add(a,b):
+    print("Sum=",(a+b))
+add(10,20)
+
+#multiply
+def multiply(a,b):
+    print(a*b)
+multiply(5,4)
+
+#level 3 argument + return statement
+def add(a,b):
+    return a+b
+result=add(10,20)
+print (result)
